@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "example_project": {
+      "path": "/absolute/path/to/workflows/example_project",
+      "env_vars": {
+        "API_KEY": "abc123",
+        "DATABASE_URL": "postgres://user:password@localhost/example_db"
+      }
+    },
+    "another_project": {
+      "path": "/absolute/path/to/workflows/another_project",
+      "env_vars": {
+        "SECRET_KEY": "another-secret",
+        "DATABASE_URL": "postgres://user:password@localhost/another_db"
+      }
+    }
+  }
+}
