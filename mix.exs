@@ -20,7 +20,7 @@ defmodule Envctl.MixProject do
 
   defp deps do
     [
-        {:jason, "~> 1.3"}
+      {:jason, "~> 1.3"}
     ]
   end
 end
